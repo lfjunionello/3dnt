@@ -1,0 +1,19 @@
+{
+    "name": "3dnt",
+    "title": "3DnT",
+    "description": "Sistema de 3D&T para o FoundryVTT",
+    "author": "Pokeblev",
+    "version": "0.01",
+    "minimumCoreVersion": "0.8.9",
+    "compatibleCoreVersion": "0.8.9",
+    "esmodules": ["3dnt.json"],
+    "styles": ["3dnt.css"],
+    "packs": [],
+    "languages": [],
+
+    "gridDistance": 1,
+    "gridUnits": "m",
+    "primaryTokenAttribute": "PV",
+    "initiative": "1d6 + @habilidade"
+
+}
