@@ -1,4 +1,29 @@
 {
     "Actor": {},
-    "Item": {}
+    "Item": {
+        "types":[
+            "Magia",
+            "Vantagem",
+            "Desvantagem",
+            "Pericia",
+            "Kit",
+            "Vantagem Unica"
+        ],
+
+        "templates": {
+            "itemDescription": {
+                "description": ""
+            }
+        },
+
+        "Magia": {
+            "templates":["itemDescription"],
+            "custo": 0,
+            "alcance": " ",
+            "escola": " ",
+            "duracao": " "
+        }
+
+    }
+
 }

@@ -6,8 +6,8 @@
     "version": "0.01",
     "minimumCoreVersion": "0.8.9",
     "compatibleCoreVersion": "0.8.9",
-    "esmodules": ["3dnt.json"],
-    "styles": ["3dnt.css"],
+    "esmodules": ["dnt.js"],
+    "styles": ["dnt.css"],
     "packs": [],
     "languages": [],
 
