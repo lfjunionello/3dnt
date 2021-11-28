@@ -4,4 +4,23 @@
         <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
     </header>
     <p>WOLOLO</p>
+    <div>
+        <tr>
+            <th> {{localize "dnt.magia.alcanceMagia"}}</th>
+            <th> {{localize "dnt.magia.escola"}}</th>
+            <th> {{localize "dnt.magia.duracao"}}</th>
+            <th> {{localize "dnt.magia.custo"}}</th>
+
+        </tr>
+        <tr>
+            <select name="data.alcanceMagia">
+                {{#select data.alcanceMagia}}
+                {{#each config.alcanceMagia as |name type|}}
+                <option value="{{type}}"> {{name}}</option>
+                {{/each}}
+                {{/select}}
+            </select>
+        </tr>
+
+    </div>
 </form>

@@ -1,0 +1,22 @@
+{
+    "dnt": {
+        "alcanceMagia":{
+            "pessoal": "Pessoal",
+            "toque": "Toque",
+            "curto": "Curto",
+            "medio": "Medio",
+            "longo": "Longo",
+            "visao": "Visao"        
+        },
+
+        "magia": {
+            "alcanceMagia": "Alcance",
+            "custo": "Custo",
+            "escola": "Escola",
+            "duracao": "Duração"
+        }
+        
+
+    }
+
+}

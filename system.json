@@ -9,7 +9,11 @@
     "esmodules": ["dnt.js"],
     "styles": ["dnt.css"],
     "packs": [],
-    "languages": [],
+    "languages": [{
+        "lang": "pt",
+        "name": "Portugues",
+        "path": "lang/pt.json"
+    }],
 
     "gridDistance": 1,
     "gridUnits": "m",

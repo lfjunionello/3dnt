@@ -19,7 +19,7 @@
         "Magia": {
             "templates":["itemDescription"],
             "custo": 0,
-            "alcance": " ",
+            "alcanceMagia": " ",
             "escola": " ",
             "duracao": " "
         }
