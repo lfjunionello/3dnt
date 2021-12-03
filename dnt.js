@@ -2,7 +2,7 @@ import {dnt} from "./module/config.js";
 import DntItemSheet from "./module/sheets/DntItemSheet.js";
 
 Hooks.once("init", function () {
-    console.log("AAAAAAAA Inicializando o sistema de 3D&T");
+    console.log("Inicializando o sistema de 3D&T");
 
     CONFIG.dnt = dnt;
 

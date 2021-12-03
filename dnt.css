@@ -1,0 +1,22 @@
+textarea{
+    resize: none;
+    height: 5px;
+}
+
+.form-magia{
+    flex: 0 0 30px
+}
+
+.dropdown-magia{
+    position: relative;
+    align-self: center;
+}
+
+.textarea-magia{
+    position: relative;
+    padding-bottom: 0%;
+}
+
+.div-description{
+    height: 100%;
+}

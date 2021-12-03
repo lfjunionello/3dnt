@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "C:\\Program Files\\FoundryVTT\\resources\\app"
+		},
+		{
+			"path": "..\\dnd5e"
 		}
 	],
 	"settings": {}

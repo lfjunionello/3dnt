@@ -14,7 +14,6 @@
         "name": "Portugues",
         "path": "lang/pt.json"
     }],
-
     "gridDistance": 1,
     "gridUnits": "m",
     "primaryTokenAttribute": "PV",

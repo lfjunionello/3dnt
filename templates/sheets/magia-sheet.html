@@ -3,24 +3,46 @@
         <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
         <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
     </header>
-    <p>WOLOLO</p>
+     
     <div>
-        <tr>
-            <th> {{localize "dnt.magia.alcanceMagia"}}</th>
-            <th> {{localize "dnt.magia.escola"}}</th>
-            <th> {{localize "dnt.magia.duracao"}}</th>
-            <th> {{localize "dnt.magia.custo"}}</th>
+        <table border=1 frame=hsides rules=rows>
+            <tr>
+                <th> {{ localize "dnt.magia.alcance" }}</th>
+                <th> {{localize "dnt.magia.escola"}}</th>
+                <th> {{localize "dnt.magia.duracao"}}</th>
+                <th> {{localize "dnt.magia.custo"}}</th>
 
-        </tr>
-        <tr>
-            <select name="data.alcanceMagia">
-                {{#select data.alcanceMagia}}
-                {{#each config.alcanceMagia as |name type|}}
-                <option value="{{type}}"> {{name}}</option>
-                {{/each}}
-                {{/select}}
-            </select>
-        </tr>
-
+            </tr>
+            <tr>
+                <td>
+                    <select class="dropdown-magia" name="data.alcances">
+                        {{#select data.alcances}}
+                        {{#each config.alcances as |name type|}}
+                        <option value="{{type}}"> {{name}}</option>
+                        {{/each}}
+                        {{/select}}
+                    </select>
+                </td>
+                <td>
+                    <form class="form-magia">
+                        <input type="text">
+                    </form>
+                </td>
+                <td>
+                    <form class="form-magia">
+                        <input type="text">
+                    </form>
+                </td>
+                <td>
+                    <form class="form-magia">
+                        <input type="text">
+                    </form>
+                </td>
+            </tr>
+        </table>
     </div>
+    <div class="div-description">
+        <textarea name="data.description"> {{data.description}}</textarea>
+    </div>
+
 </form>
